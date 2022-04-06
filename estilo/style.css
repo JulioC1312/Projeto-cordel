@@ -74,7 +74,7 @@ section.imagem{
     background-color: rgb(27, 27, 27);
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.418);
-    background-size: cover;
+    
     background-attachment: fixed;/*para fixar a imagem de fundo*/
 }
 
@@ -89,11 +89,14 @@ section.imagem>p{
 section#img01{
  background-image: url('../imagens/background001.jpg');
  background-position: right center;
+ background-size: cover;
  /*caso for imagens com configuração diferentes da pra colocar background-size:cover separado,se a configuração for nas duas pode usar direto no section.imagem*/
 }
 
 section#img02{
  background-image: url('../imagens/background002.jpg');
+ background-position: right center;
+ background-size: cover;
  
 }
 
